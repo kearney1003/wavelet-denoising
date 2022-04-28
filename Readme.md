@@ -43,14 +43,14 @@ the translated higher coefficient.
 ```bash
 python train.py --train_dir train/ --val_dir val/ -e 100 -b 4 -l 0.00005 --dropout 0.2 --wt aaa --net dncnn
 ```
-or use UNet+SPADE as synthesis net to train the higher-frequency channel ddd:
+- Or use UNet+SPADE as synthesis net to train the higher-frequency channel ddd:
 ```bash
 python train.py --train_dir train/ --val_dir val/ -e 100 -b 4 -l 0.0001 --dropout 0.2 --wt add --net unet+spade
 ```
 
 ### Test
 - Organize the directory for 8 models in one folder, see detailed arrangement [here](test.py);
-- (optional) Obtain brain mask and normalization parameters of wavelet coefficient;
+- (optional) Obtain brain mask and normalization parameters for 8 wavelet coefficients;
 - You can download the trained models, test examples and normalization parameters (include b=1000, 3000 ms/mm^2) here:
    - [test examples](https://drive.google.com/drive/folders/1-fl1YV3woGMv1Vxw-e-GJLNDjr1i-nUF?usp=sharing)
    - [trained models](https://drive.google.com/drive/folders/1qsxZiQlsxrD3pE9DSaU7jzUFE7TMDBX6?usp=sharing)
