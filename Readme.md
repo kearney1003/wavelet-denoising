@@ -62,6 +62,8 @@ python test.py --test_dir test/146331/b1data.nii.gz --output_dir test/146331/b1d
 python test.py --test_dir test/146331/b3data.nii.gz --output_dir test/146331/b3denoised.nii.gz --gt_dir test/146331/b3clean.nii.gz --mask_dir test/146331/wavelet_mask.nii.gz --bval b3 --metrix
 ```
 
+Junyan Wang, Jinnan Hu, Deep Multi-resolution Diffusion Image Denoising via Low-Frequency-to-High-Frequency Channel Translation, under review, 2022
+
 Please feel free to contact us if you have any problem.
 [Contact us](jinnanhu@zhejianglab.com)
 
